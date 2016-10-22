@@ -43,10 +43,10 @@ var defaultSettings = {
 // ==UserScript==
 // @name           Webcomic Reader
 // @author         ameboide
-// @version        2015.03.27
-// @namespace      http://userscripts.org/scripts/show/59842
+// @version        2016.10.22
+// @namespace      https://github.com/Ethos0/webcomic_reader
 // @description    Can work on almost any webcomic/manga page, preloads 5 or more pages ahead (or behind), navigates via ajax for instant-page-change, lets you use the keyboard, remembers your progress, and it's relatively easy to add new sites
-// @lastchanges    added 2 sites, fixed 6 more
+// @lastchanges    fixed 1 site
 // @updatetype     24
 // @grant          GM_getValue
 // @grant          GM_setValue
@@ -412,8 +412,7 @@ var defaultSettings = {
 // @include        http://babyblues.com/*
 // @include        http://www.bearandtiger.com/*
 // @include        http://mangatopia.net/*
-// @include        http://exhentai.org/*
-// @include        https://exhentai.org/*
+// @include        /^https?://([^\.]+\.)?exhentai\.org/*$/
 // @include        http://www.wigucomics.com/*
 // @include        http://www.mankin-trad.net/*
 // @include        http://mankin-trad.net/*
